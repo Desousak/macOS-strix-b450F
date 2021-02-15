@@ -4,7 +4,7 @@
 
 ⚠️ <b>OpenCore is still in beta. Please keep this in mind.</b>
 
-**macOS Big Sur**: 11.1 (20C69) Dual Boot w/ **Windows 10**: 2004
+**macOS Big Sur**: 11.2 (20D64) Dual Boot w/ **Windows 10**: 2004
 
 **OpenCore version**: 0.6.5 <br>
 
@@ -30,11 +30,10 @@
 1. [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor)
 2. [AppleALC](https://github.com/acidanthera/AppleALC)
 3. [Lilu](https://github.com/acidanthera/Lilu)
-4. [RadeonBoost](https://egpu.io/forums/mac-setup/radeonboost-something-for-you-guys-to-try/)
-5. [SmallTreeIntel82576](https://github.com/khronokernel/SmallTree-I211-AT-patch)
-6. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
-7. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
-8. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
+4. [SmallTreeIntel82576](https://github.com/khronokernel/SmallTree-I211-AT-patch)
+5. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
+6. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
+7. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
 
 ## Installation
   1. Format a USB stick, preferably USB 3, with the NTFS file system
@@ -46,7 +45,7 @@
   7. When this is complete, you will now see a USB device called "BOOT" replaced the "EFI" folder contained in it with the one that is contained in this repo.
   
   8. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) and open "GenSMBIOS.bat". Then press 1 and then 2, enter the path to the config.plist that is saved on the "BOOT" USB stick under EFI > OC .
-  9. After that press 3 and type in "iMacPro1,1". Then press enter, if you now see a random number combination in the window that follows, you have done everything correctly so far.
+  9. After that press 3 and type in "MacPro7,1". Then press enter, if you now see a random number combination in the window that follows, you have done everything correctly so far.
   10. Now boot from the USB stick after deactivating secure boot, fast boot, and csm in the BIOS and unplugging all hard drives, apart from a single blank one on which you want to install macOS.
 
 > Set OS Type in your BIOS to `Other OS` if you're having issues booting the macOS installer.
