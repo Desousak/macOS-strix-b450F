@@ -6,7 +6,7 @@
 
 **macOS Big Sur**: 11.2.3 (20D91) Dual Boot w/ **Windows 10**: 2004
 
-**OpenCore version**: 0.6.6 <br>
+**OpenCore version**: 0.6.7 <br>
 
 <br>
 
