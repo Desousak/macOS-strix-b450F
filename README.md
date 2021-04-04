@@ -57,7 +57,7 @@
 9. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
 10. [USBMap](https://github.com/corpnewt/USBMap)
 
-### What Works:
+### What Works
 - Pretty much everything!
 - Safari DRM
 - Hardware Acceleration (via Vega 64 GPU)
@@ -66,7 +66,7 @@
 - Continunity and Handoff (BCM94360NG)
 - USB Port mapping
 
-### What Doesnt Work:
+### What Doesnt Work
 - Sidecar (because of AMD CPU)
 - Adobe Products (can be fixed)
 - Docker ([VirtualBox](https://medium.com/crowdbotics/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3) can be used)
