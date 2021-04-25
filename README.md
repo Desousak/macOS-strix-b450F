@@ -83,8 +83,8 @@
     - Alternatively, you can remove the `USBMap.kext` kext
   - Currently all motherboard IO USB ports are mapped (except for the one beside the USB C port) as well as two USB 3 ports on my [case](https://www.fractal-design.com/products/cases/meshify/meshify-c-dark-tempered-glass/Black/) 
 - A custom graphics power management kext (`AGPMInjector.kext`) was generated for my specific configuration (iMacPro1,1 and Vega64)
-  - This specific configuration may not work for you, however, so it is recommended to generate your own kext that represents your system
-- A Vega 64 powerplay table was used to undervolt the GPU, however this may not work with your system
+  - My configuration may not match yours, however, so it is recommended to generate your own kext that represents your system
+- A Vega 64 powerplay table was used to undervolt the GPU - but this may not work with your system
   - Either edit, or remove, the GPU entry under `DeviceProperties/Add/PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)` to fix this
 
 <br>
