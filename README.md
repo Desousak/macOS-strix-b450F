@@ -43,6 +43,8 @@
 1. [AMD Power Gadget](https://github.com/trulyspinach/SMCAMDProcessor/releases): To read and adjust CPU clock frequencies
 2. [SteelSeries ExactMouse Tool](https://downloads.steelseriescdn.com/drivers/tools/steelseries-exactmouse-tool.dmg): To disable mouse acceleration within macOS 
 3. [MOS](https://mos.caldis.me/): To enable smooth scrolling on normal mice
+4. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector): To generate a graphics card specific power management kext
+5. [PyVega](https://github.com/corpnewt/PyVega): To create a custom powerplay table for Vega GPUs
 
 
 ### Kexts Used
@@ -56,6 +58,7 @@
 8. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
 9. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
 10. [USBMap](https://github.com/corpnewt/USBMap)
+11. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) ***SHOULD BE REPLACED - SEE NOTES***
 
 ### What Works
 - Pretty much everything!
@@ -79,6 +82,10 @@
   - This map may not work correctly with your system - see [here](https://github.com/corpnewt/USBMap) to create another one
     - Alternatively, you can remove the `USBMap.kext` kext
   - Currently all motherboard IO USB ports are mapped (except for the one beside the USB C port) as well as two USB 3 ports on my [case](https://www.fractal-design.com/products/cases/meshify/meshify-c-dark-tempered-glass/Black/) 
+- A custom graphics power management kext (`AGPMInjector.kext`) was generated for my specific configuration (iMacPro1,1 and Vega64)
+  - This specific configuration may not work for you, however, so it is recommended to generate your own kext that represents your system
+- A Vega 64 powerplay table was used to undervolt the GPU, however this may not work with your system
+  - Either edit, or remove, the GPU entry under `DeviceProperties/Add/PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)` to fix this
 
 <br>
 
