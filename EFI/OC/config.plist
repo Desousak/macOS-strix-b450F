@@ -8,6 +8,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>CPU PM</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -187,10 +195,49 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>layout-id</key>
-				<integer>7</integer>
+				<key>PP_DisableClockStretcher</key>
+				<integer>1</integer>
+				<key>PP_DisablePowerContainment</key>
+				<integer>0</integer>
+				<key>PP_DisableULV</key>
+				<integer>1</integer>
+				<key>PP_EnableUploadFirmware</key>
+				<integer>0</integer>
+				<key>PP_Falcon_QuickTransition_Enable</key>
+				<integer>1</integer>
+				<key>PP_GfxOffControl</key>
+				<integer>0</integer>
+				<key>PP_PhmSoftPowerPlayTable</key>
+				<data>
+				tgIIAQBcAOEGAADuKwAAGwBIAAAAgKkDAPBJAgAyAAgA
+				AAAAAAAAAAAAAAAAAAIBXABPAkYClACeAb4AKAF6AIwA
+				vAEAAAAAcgIAAJAAqAJtAUMBlwHwSQIAcQICAgAAAAAA
+				AAgAAAAAAAAABQAHAAMABQAAAAAAAAABCCADhAO2A+ID
+				4gMaBBoEGgQBAUYFAQGEAwAIYOoAAABAGQEAAYA4AQAC
+				3EoBAAOQXwEABAB3AQAFkJEBAAZssAEABwEI0EwBAAAA
+				gAAAAAAAAByDAQABAAAAAAAAAABwpwEAAgAAAAAAAAAA
+				iLwBAAMAAAAAAAAAAMDUAQAEAAAAAAAAAABEIwIABQAA
+				AAABAAAA9CcCAAYAAAAAAQAAAPQnAgAHAAAAAAEAAAAA
+				BWDqAAAAQBkBAACAOAEAANxKAQAAkF8BAAAACChuAAAA
+				LMkAAAH4CwEAAoA4AQADkF8BAAT0kQEABdCwAQAGwNQB
+				AAcACGw5AAAAJF4AAAH8hQAAAqy8AAADNNAAAARobgEA
+				BQiXAQAG7KMBAAcAAWg8AQAAAQQ8QQAAAAAAUMMAAAAA
+				AIA4AQACAAAkcQEABAAAAQgAmIUAAEC1AABg6gAAUMMA
+				AAGAuwAAYOoAAJQLAQBQwwAAAgDhAACUCwEAQBkBAFDD
+				AAADeP8AAEAZAQCIJgEAUMMAAARAGQEAgDgBAIA4AQBQ
+				wwAABYA4AQDcSgEA3EoBAFDDAAAGAHcBAAB3AQCQXwEA
+				UMMAAAeQkQEAkJEBAAB3AQBQwwAAARgAAAAAAAAAC+QS
+				YAlgCV8ACgBUA5ABkAGQAZABkAGQAZABAAAAAAACBDEH
+				3ADcANwALAEAAFkAaQBKAEoAXwBzAHMAZABAAJCSl2CW
+				AJBVAAAAAAAAAAAAAAAAAAAAAAACAtQwAAACEGDqAAAC
+				EA==
+				</data>
+				<key>PP_PhmUseDummyBackEnd</key>
+				<integer>0</integer>
+				<key>PP_ToolsLogSpaceSize</key>
+				<integer>524288</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -337,6 +384,24 @@
 				<string>Contents/MacOS/SmallTreeIntel82576</string>
 				<key>Arch</key>
 				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AGPMInjector.kext</string>
+				<key>Comment</key>
+				<string>Video</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1833,7 +1898,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 alcid=7 shikigva=128 unfairgva=1</string>
+				<string>debug=0x100 keepsyms=1 npci=0x2000 alcid=7 unfairgva=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
