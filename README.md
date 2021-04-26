@@ -4,7 +4,7 @@
 
 ⚠️ <b>OpenCore is still in beta. Please keep this in mind.</b>
 
-**macOS Big Sur**: 11.2.3 (20D91) Dual Boot w/ **Windows 10**: 2004
+**macOS Big Sur**: 11.3 (20E232) Dual Boot w/ **Windows 10**: 2004
 
 **OpenCore version**: 0.6.8 <br>
 
