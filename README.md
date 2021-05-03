@@ -6,7 +6,7 @@
 
 **macOS Big Sur**: 11.3 (20E232) Dual Boot w/ **Windows 10**: 2004
 
-**OpenCore version**: 0.6.8 <br>
+**OpenCore version**: 0.6.9 <br>
 
 <br>
 
@@ -50,15 +50,14 @@
 ### Kexts Used
 1. [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor)
 2. [AppleALC](https://github.com/acidanthera/AppleALC)
-3. AppleMCEReporterDisabler
-4. [Lilu](https://github.com/acidanthera/Lilu)
-5. [NVMeFix](https://github.com/acidanthera/NVMeFix)
-6. [SmallTreeIntel82576](https://github.com/khronokernel/SmallTree-I211-AT-patch)
-7. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
-8. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
-9. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
-10. [USBMap](https://github.com/corpnewt/USBMap)
-11. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) ***SHOULD BE REPLACED - SEE NOTES***
+3. [Lilu](https://github.com/acidanthera/Lilu)
+4. [NVMeFix](https://github.com/acidanthera/NVMeFix)
+5. [SmallTreeIntel82576](https://github.com/khronokernel/SmallTree-I211-AT-patch)
+6. [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
+7. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
+8. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
+9. [USBMap](https://github.com/corpnewt/USBMap)
+10. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) ***SHOULD BE REPLACED - SEE NOTES***
 
 ### What Works
 - Pretty much everything!
