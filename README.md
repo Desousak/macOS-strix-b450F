@@ -38,6 +38,7 @@
 - Serial Port → Disabled
 - XHCI Hand-off → Enabled
 - Core Performance Boost → Enabled
+- Above 4G Decoding → Enabled
 
 ### Recommended Software
 1. [AMD Power Gadget](https://github.com/trulyspinach/SMCAMDProcessor/releases): To read and adjust CPU clock frequencies
