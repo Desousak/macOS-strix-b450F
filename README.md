@@ -58,7 +58,8 @@
 7. [VirtualSMC](https://github.com/acidanthera/virtualsmc)
 8. [WhateverGreen](https://github.com/acidanthera/whatevergreen)
 9. [USBMap](https://github.com/corpnewt/USBMap)
-10. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) ***SHOULD BE REPLACED - SEE NOTES***
+10. [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
+11. [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) ***SHOULD BE REPLACED - SEE NOTES***
 
 ### What Works
 - Pretty much everything!
