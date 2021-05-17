@@ -4,7 +4,7 @@
 
 ⚠️ <b>OpenCore is still in beta. Please keep this in mind.</b>
 
-**macOS Big Sur**: 11.3 (20E232) Dual Boot w/ **Windows 10**: 2004
+**macOS Big Sur**: 11.3.1 (20E241) Dual Boot w/ **Windows 10**: 2004
 
 **OpenCore version**: 0.6.9 <br>
 
@@ -83,7 +83,7 @@
   - This map may not work correctly with your system - see [here](https://github.com/corpnewt/USBMap) to create another one
     - Alternatively, you can remove the `USBMap.kext` kext
   - Currently all motherboard IO USB ports are mapped (except for the one beside the USB C port) as well as two USB 3 ports on my [case](https://www.fractal-design.com/products/cases/meshify/meshify-c-dark-tempered-glass/Black/) 
-- A custom graphics power management kext (`AGPMInjector.kext`) was generated for my specific configuration (iMacPro1,1 and Vega64)
+- A custom graphics power management kext (`AGPMInjector.kext`) was generated for my specific configuration (MacPro7,1 and Vega64)
   - My configuration may not match yours, however, so it is recommended to generate your own kext that represents your system
 - A Vega 64 powerplay table was used to undervolt the GPU - but this may not work with your system
   - Either edit, or remove, the GPU entry under `DeviceProperties/Add/PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)` to fix this
